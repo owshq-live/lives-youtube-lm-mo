@@ -4,7 +4,7 @@ Esse repositório é público para divulgação dos códigos demonstrado durante
 
 * link do youtube : https://www.youtube.com/c/LuanMorenoMMaciel
 
-##### Toda quarta-feira - 20:00
+### Toda quarta-feira - 20:00
 
 O conteúdo é gratuito feito para engenheiro de dados de todos os níveis, trazendo conhecimento que é usado em nível mercado.
 
@@ -12,7 +12,7 @@ Cada dia as empresas precisam de profissionais com conhecimento em diversas áre
 
 Um dos maiores complicadores é o idioma, aqui teremos uma mescla dos 2, conteúdos em português com documentação em inglês para deixar mais familiarizado com documentos em inglês, lembrando que as lives são em português salvo alguns com convidados estrangeiros.
 
-##### Tecnologias para Big Data:
+### Tecnologias para Big Data:
 * Apache Spark
 * Apache Kafka
 * Apache Airflow
@@ -34,7 +34,7 @@ Um dos maiores complicadores é o idioma, aqui teremos uma mescla dos 2, conteú
 * Lenses
 
 
-##### Fundamentos:
+### Fundamentos:
 * Big Data
 * Data Pipelines
   * Batching
@@ -49,11 +49,20 @@ Um dos maiores complicadores é o idioma, aqui teremos uma mescla dos 2, conteú
 * Data Governance
 
 
-##### Linguagens de programação:
+### Linguagens de programação:
 * SQL
 * Python
 * Shell
 
 
 ### Outros canais:
-*
+* Medium
+  * https://medium.com/engenharia-de-dados-academy
+* Instagram
+  * https://www.instagram.com/engenhariadedados/
+* Podcast  
+  * https://engenhariadedadoscast.buzzsprout.com/
+* Linkedin
+  * https://www.linkedin.com/company/engenharia-de-dados/
+  * https://www.linkedin.com/in/luanmoreno/
+  * https://www.linkedin.com/in/mateushenriqueoliveira/
