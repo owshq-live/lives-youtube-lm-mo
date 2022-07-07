@@ -1,0 +1,188 @@
+{
+  "format-version" : 1,
+  "table-uuid" : "36fc145e-3314-4803-86d9-8da4ae9828f6",
+  "location" : "$PWD/warehouse/db/device",
+  "last-updated-ms" : 1657152070981,
+  "last-column-id" : 10,
+  "schema" : {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "build_number",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "dt_current_timestamp",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 3,
+      "name" : "id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 4,
+      "name" : "manufacturer",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "model",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "platform",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 7,
+      "name" : "serial_number",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 8,
+      "name" : "uid",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 9,
+      "name" : "user_id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 10,
+      "name" : "version",
+      "required" : false,
+      "type" : "int"
+    } ]
+  },
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "build_number",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "dt_current_timestamp",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 3,
+      "name" : "id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 4,
+      "name" : "manufacturer",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "model",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "platform",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 7,
+      "name" : "serial_number",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 8,
+      "name" : "uid",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 9,
+      "name" : "user_id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 10,
+      "name" : "version",
+      "required" : false,
+      "type" : "int"
+    } ]
+  } ],
+  "partition-spec" : [ ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "luanmorenom.maciel"
+  },
+  "current-snapshot-id" : 3997172716197258609,
+  "snapshots" : [ {
+    "snapshot-id" : 4565996596347847326,
+    "timestamp-ms" : 1657137439829,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1657137424239",
+      "added-data-files" : "1",
+      "added-records" : "100",
+      "added-files-size" : "7849",
+      "changed-partition-count" : "1",
+      "total-records" : "100",
+      "total-files-size" : "7849",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "$PWD/warehouse/db/device/metadata/snap-4565996596347847326-1-cbf2c025-b0fb-46fd-bea5-e86da7d0f3ef.avro",
+    "schema-id" : 0
+  }, {
+    "snapshot-id" : 3997172716197258609,
+    "parent-snapshot-id" : 4565996596347847326,
+    "timestamp-ms" : 1657152070981,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1657152050405",
+      "added-data-files" : "1",
+      "added-records" : "100",
+      "added-files-size" : "7849",
+      "changed-partition-count" : "1",
+      "total-records" : "200",
+      "total-files-size" : "15698",
+      "total-data-files" : "2",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "$PWD/warehouse/db/device/metadata/snap-3997172716197258609-1-05352a39-8008-4909-9ed1-dc26d86799d0.avro",
+    "schema-id" : 0
+  } ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1657137439829,
+    "snapshot-id" : 4565996596347847326
+  }, {
+    "timestamp-ms" : 1657152070981,
+    "snapshot-id" : 3997172716197258609
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1657137437876,
+    "metadata-file" : "$PWD/warehouse/db/device/metadata/v1.metadata.json"
+  }, {
+    "timestamp-ms" : 1657137439829,
+    "metadata-file" : "$PWD/warehouse/db/device/metadata/v2.metadata.json"
+  } ]
+}

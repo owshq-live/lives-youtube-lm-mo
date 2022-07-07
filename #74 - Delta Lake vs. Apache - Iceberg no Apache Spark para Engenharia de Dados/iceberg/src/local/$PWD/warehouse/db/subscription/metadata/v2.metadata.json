@@ -1,0 +1,152 @@
+{
+  "format-version" : 1,
+  "table-uuid" : "d671bdc6-0a6b-4835-adcc-d74c57db51e8",
+  "location" : "$PWD/warehouse/db/subscription",
+  "last-updated-ms" : 1657137440672,
+  "last-column-id" : 9,
+  "schema" : {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "dt_current_timestamp",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 2,
+      "name" : "id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 3,
+      "name" : "payment_method",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "payment_term",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "plan",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "status",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 7,
+      "name" : "subscription_term",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 8,
+      "name" : "uid",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 9,
+      "name" : "user_id",
+      "required" : false,
+      "type" : "int"
+    } ]
+  },
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "dt_current_timestamp",
+      "required" : false,
+      "type" : "long"
+    }, {
+      "id" : 2,
+      "name" : "id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 3,
+      "name" : "payment_method",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 4,
+      "name" : "payment_term",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 5,
+      "name" : "plan",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 6,
+      "name" : "status",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 7,
+      "name" : "subscription_term",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 8,
+      "name" : "uid",
+      "required" : false,
+      "type" : "string"
+    }, {
+      "id" : 9,
+      "name" : "user_id",
+      "required" : false,
+      "type" : "int"
+    } ]
+  } ],
+  "partition-spec" : [ ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "luanmorenom.maciel"
+  },
+  "current-snapshot-id" : 2743057153161134174,
+  "snapshots" : [ {
+    "snapshot-id" : 2743057153161134174,
+    "timestamp-ms" : 1657137440672,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1657137424239",
+      "added-data-files" : "1",
+      "added-records" : "100",
+      "added-files-size" : "6409",
+      "changed-partition-count" : "1",
+      "total-records" : "100",
+      "total-files-size" : "6409",
+      "total-data-files" : "1",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "$PWD/warehouse/db/subscription/metadata/snap-2743057153161134174-1-b66bdd03-f83a-4f16-9463-2a4d14f5ac53.avro",
+    "schema-id" : 0
+  } ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1657137440672,
+    "snapshot-id" : 2743057153161134174
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1657137438125,
+    "metadata-file" : "$PWD/warehouse/db/subscription/metadata/v1.metadata.json"
+  } ]
+}
