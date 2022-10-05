@@ -27,6 +27,13 @@ https://cloud.google.com/dataproc/docs/guides/dpgke/dataproc-gke-overview#:~:tex
 gcloud dataproc clusters create etlyelppy --enable-component-gateway --region us-central1 --zone us-central1-c --master-machine-type n1-standard-2 --master-boot-disk-size 500 --num-workers 2 --worker-machine-type n1-standard-2 --worker-boot-disk-size 500 --image-version 2.0-debian10 --scopes 'https://www.googleapis.com/auth/cloud-platform' --project silver-charmer-243611
 
 # submit job to the cluster
+gcloud dataproc jobs --help
+
+gcloud dataproc jobs submit pyspark 'gs://owshq-code-repository/py-etl-yelp-reviews.py' \
+    --cluster=etlyelppy \
+    --region='us-central1'
+
+# job id = c1368ec87fdb460d8c484e094c714a57
 
 ```
 
@@ -43,13 +50,13 @@ https://cloud.google.com/sdk/gcloud/reference/dataproc/batches/submit?hl=en_US
 gcloud dataproc batches submit pyspark --help
 
 gcloud dataproc batches submit pyspark 'gs://owshq-code-repository/py-etl-yelp-reviews.py' \
-    --batch=batch-06-py-etl-yelp-reviews  \
+    --batch=batch-07-py-etl-yelp-reviews  \
     --deps-bucket=gs://owshq-code-repository \
     --region='us-central1'
 
 # get info 
-gcloud dataproc batches describe batch-01-py-etl-yelp-reviews 
+gcloud dataproc batches describe batch-07-py-etl-yelp-reviews 
 
 # verify log
-gcloud dataproc batches wait batch-01-py-etl-yelp-reviews 
+gcloud dataproc batches wait batch-07-py-etl-yelp-reviews 
 ```
