@@ -26,6 +26,9 @@ https://cloud.google.com/dataproc/docs/guides/dpgke/dataproc-gke-overview#:~:tex
 # create spark cluster
 gcloud dataproc clusters create etlyelppy --enable-component-gateway --region us-central1 --zone us-central1-c --master-machine-type n1-standard-2 --master-boot-disk-size 500 --num-workers 2 --worker-machine-type n1-standard-2 --worker-boot-disk-size 500 --image-version 2.0-debian10 --scopes 'https://www.googleapis.com/auth/cloud-platform' --project silver-charmer-243611
 
+# list
+gcloud dataproc clusters list --region='us-central1'
+
 # submit job to the cluster
 gcloud dataproc jobs --help
 
@@ -34,7 +37,6 @@ gcloud dataproc jobs submit pyspark 'gs://owshq-code-repository/py-etl-yelp-revi
     --region='us-central1'
 
 # job id = c1368ec87fdb460d8c484e094c714a57
-
 ```
 
 ## submit a job on dataproc [serverless] = batch

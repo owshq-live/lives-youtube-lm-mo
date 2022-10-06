@@ -64,7 +64,7 @@ az synapse spark job submit \
 
 # collect status
 az synapse spark job show \
-    --livy-id 0 \
+    --livy-id 1 \
     --spark-pool-name etlyelppy \
     --workspace-name owshq-synapse
 
